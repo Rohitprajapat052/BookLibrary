@@ -45,7 +45,7 @@ const BookModal = ({ book, onClose }) => {
 };
 
 BookModal.propTypes = {
-  book: PropTypes.object.isRequired, // You can adjust the propTypes as needed
+  book: PropTypes.object.isRequired,  // You can adjust the propTypes as needed
   onClose: PropTypes.func.isRequired, // Ensure onClose is a required function
 };
 
